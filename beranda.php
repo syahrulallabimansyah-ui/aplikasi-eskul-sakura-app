@@ -1068,10 +1068,6 @@ if (file_exists($clubProfileFile)) {
         <span class="ann-badge" id="annBadge" style="<?= $unreadCount > 0 ? '' : 'display:none;' ?>"><?= $unreadCount ?></span>
       </a>
       <?php endif; ?>
-      <a href="chatbot.php" class="ai-btn" title="Tanya AI">
-        <span class="ai-btn-icon">🤖</span>
-        <span class="ai-btn-label">Tanya AI</span>
-      </a>
       <button class="theme-toggle" onclick="toggleTheme()" title="Mode Terang">☀️</button>
     </div>
   </header>
